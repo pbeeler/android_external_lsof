@@ -36,7 +36,8 @@ LOCAL_CFLAGS := -Os -g -W -Wall \
         -DHASIPv6 \
         -D_FILE_OFFSET_BITS=32 \
         -DHAS_STRFTIME \
-        -DLSOF_VSTR=\"2.6.32-androidlol\"
+        -DLSOF_VSTR=\"2.6.32-androidlol\" \
+        -fno-strict-aliasing
 
 LOCAL_PRELINK_MODULE := false
 
@@ -60,7 +61,8 @@ LOCAL_CFLAGS := -Os -g -W -Wall \
 	-DHASIPv6 \
 	-D_FILE_OFFSET_BITS=32 \
 	-DHAS_STRFTIME \
-	-DLSOF_VSTR=\"2.6.32-androidlol\"
+	-DLSOF_VSTR=\"2.6.32-androidlol\" \
+	-fno-strict-aliasing
 
 LOCAL_MODULE := lsof
 LOCAL_MODULE_TAGS := eng
@@ -90,7 +92,8 @@ LOCAL_CFLAGS := -Os -g -W -Wall \
 	-DHASIPv6 \
 	-D_FILE_OFFSET_BITS=32 \
 	-DHAS_STRFTIME \
-	-DLSOF_VSTR=\"2.6.32-androidlol\"
+	-DLSOF_VSTR=\"2.6.32-androidlol\" \
+	-fno-strict-aliasing
 
 LOCAL_MODULE := utility_lsof
 LOCAL_MODULE_TAGS := eng
